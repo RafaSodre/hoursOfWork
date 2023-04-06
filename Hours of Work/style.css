@@ -1,0 +1,36 @@
+#Tabela{
+    border-style: ridge;
+    border: black;
+}
+
+
+
+#saldoNegativo{
+    background-color: rgba(205, 59, 59, 0.775);
+    color: rgb(0, 0, 0);
+}
+
+#saldoPositivo{
+    background-color: rgba(124, 240, 109, 0.775);
+    color: rgb(0, 0, 0);
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+
+}
+
+table td, table th {
+    border: 3px solid #000000;
+    padding: 8px;
+  }
+
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #252d38;
+    color: white;
+}
